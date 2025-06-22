@@ -1,0 +1,116 @@
+/* Base Styles*/ 
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Times New Roman', Times, serif;
+    font-size: 100%;
+}
+
+h1 {
+    margin: 1% 1% 5% 1%;
+    font-size: 175%;
+    text-align: center;
+}
+
+section {
+    position: relative;
+    background-color: #808080;
+    border: 1px solid black;
+}
+
+h2 {
+    position: absolute; 
+    top: 0px;
+    right: 0px;
+    border: 1px solid black;
+    width: 40%;
+    margin-top: 0;
+    font-size: 125%;
+    text-align: center;
+    overflow: hidden;
+}
+
+#title1 {
+    background-color: #E3963E;
+}
+
+#title2 {
+    background-color: #D22B2B; 
+}
+
+#title3 { 
+    background-color: #EEDC82;
+}
+
+p {
+    padding-top: 10%;
+    padding-left: 1%; 
+    padding-right: 1%;
+}
+
+/* Responsive Framework */ 
+
+.row {
+    width: 100%;
+}
+
+/* Desktop */ 
+
+@media (min-width: 992px) {
+    .col-lg1 {
+        float: left;
+        width: 30%;
+        margin-left: 2.5%;
+    }
+    .col-lg2 {
+        float: left;
+        width: 30%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+     }
+    .col-lg3 {
+        float: left;
+        width: 30%;
+        margin-right: 2.5%;
+    }
+}
+
+/* Tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .col-md1 {
+        float: left;
+        width: 37%;
+        margin-left: 10%;
+        margin-right: .5%;
+        margin-bottom: 2.5%;
+    }
+    .col-md2 {
+        float: right;
+        width: 37%;
+        margin-left: .5%;
+        margin-right: 10%;
+        margin-bottom: 2.5%;
+    }
+    .col-md3 {
+        float: right;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+}
+
+/* Mobile */
+
+@media (max-width: 767px) {
+    .col-sm {
+        float: left;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-bottom: 2.5%;
+    }
+}
