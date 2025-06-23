@@ -83,23 +83,23 @@ p {
 @media (min-width: 768px) and (max-width: 991px) {
     .col-md1 {
         float: left;
-        width: 37%;
-        margin-left: 10%;
-        margin-right: .5%;
+        width: 45%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
         margin-bottom: 2.5%;
     }
     .col-md2 {
         float: right;
-        width: 37%;
-        margin-left: .5%;
-        margin-right: 10%;
+        width: 45%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
         margin-bottom: 2.5%;
     }
     .col-md3 {
         float: right;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
     }
 }
 
@@ -108,9 +108,9 @@ p {
 @media (max-width: 767px) {
     .col-sm {
         float: left;
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
+        width: 95%;
+        margin-left: 2.5%;
+        margin-right: 2.5%;
         margin-bottom: 2.5%;
     }
 }
