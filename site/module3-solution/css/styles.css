@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
+#page-nav {
+    background-color: #800020;
+}
+
+#item-a {
+    background-color:#FFD700;
+}
+
+#item-b {
+    background-color: #FFA500;
+}
+
+#item-c {
+    background-color: #D2042D;
+}
+
+#main-content {
+    height: 1000px;
+    margin: 5%;
+    background-color: #F88379;
+}
+
